@@ -14,12 +14,6 @@ public class Person {
 
     }
 
-    public Person(String firstName, String lastName, String phoneNumber, String address) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phoneNumber = phoneNumber;
-        this.address = address;
-    }
 
     public String getFirstName() {
         return firstName;

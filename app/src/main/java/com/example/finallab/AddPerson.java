@@ -43,7 +43,7 @@ public class AddPerson extends AppCompatActivity {
                         person.setAddress(address.getText().toString());
 
                         helper.addPerson(person);
-                        Toast.makeText(AddPerson.this,"New person added to phonebook",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddPerson.this,"New person added to contacts",Toast.LENGTH_SHORT).show();
                         finish();
 
                     }
