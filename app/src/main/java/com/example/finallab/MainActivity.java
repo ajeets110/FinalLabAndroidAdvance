@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, DetailsOfPerson.class);
 
                 if(isSearchFinished==true){
-                    intent.putExtra("personId", arrayList.get(position).getPersonId());
+                    intent.putExtra("personId", arrayList.get(position));
 
                 }
 

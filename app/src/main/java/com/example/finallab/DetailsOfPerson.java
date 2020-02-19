@@ -30,8 +30,8 @@ public class DetailsOfPerson extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_detail_controller);
 
-        personId = getIntent().getExtras().getInt("incomingPersonId");
-        person = databaseHelper.getPerson(personId);
+        person = getIntent().getParcelableExtra("personId");
+       // person = databaseHelper.getPerson(personId);
 
         name= findViewById(R.id.txt_nameD);
         lastName = findViewById(R.id.txt_last_nameD);
